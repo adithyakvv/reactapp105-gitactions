@@ -3,14 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/adithyakvv/reactapp105",
+  "homepage": "https://github.com/adithyakvv/reactapp105-gitactions",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build", //not required for LAB3
+    "deploy": "gh-pages -d dist"  //not required for LAB3
   },
   "dependencies": {
     "react": "^19.1.0",
